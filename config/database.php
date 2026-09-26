@@ -2,7 +2,7 @@
 // Read credentials directly from Render's environment variables
 $host     = getenv('DB_HOST');
 $port     = getenv('DB_PORT') ?: '4000'; 
-$dbname   = getenv('DB_NAME') ?: 'test'; // Matches your TiDB cloud schema folder name
+$dbname   = getenv('DB_NAME') ?: 'softwares'; // Matches your TiDB cloud schema folder name
 $username = getenv('DB_USER');
 $password = getenv('DB_PASSWORD'); // Fixed variable key name
 
